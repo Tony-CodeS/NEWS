@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Allura&family=Montserrat:wght@400;500&family=Pacifico&family=Rubik+Maze&display=swap');
+
+ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar{
+    padding: 10px 20px;
+}
+#nav{
+    background-color: rgb(75, 75, 243);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:black
+}
+
+#title{
+    /* font-family: 'Rubik Maze', cursive; */
+    color: yellow;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+a:hover{
+    color: yellow;
+}
+
+@media screen and (max-width:400px){
+    ul{
+        /* text-align: center; */
+        text-align: center;
+    }
+}
